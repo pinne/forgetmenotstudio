@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import Nav from './nav'
 import styles from './layout.module.css'
 
 import debounce from '../util/debounce'
