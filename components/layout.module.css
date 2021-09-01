@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quicksand', monospace;
+  color: #171924;
+  min-height: 100vh;
+  background: #aabaeb;
+  background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgb(177, 191, 243) 100%); 
+  background-attachment: local;
+}
