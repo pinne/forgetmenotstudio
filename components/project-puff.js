@@ -4,14 +4,13 @@ import nibblaStolar from './../images/nibbla-stolar.jpg'
 import wip from './../images/work-in-progress.jpg'
 import aptStyling from './../images/apt-styling.jpg'
 
-function LargePuff({image, project, description, ...style}) {
+function LargePuff({image, project, description}) {
   return (
     <div className={styles.puff}>
       <a href="#">
         <Image
           src={image}
           className={styles.cover}
-          style
         />
         <div className={styles.bottom}>
           <div>{project}</div>
