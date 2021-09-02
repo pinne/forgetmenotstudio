@@ -7,6 +7,8 @@ body {
 }
 main {
   flex: 1;
+  align-self: center;
+  max-width: 800px;
 }
 footer {
   font-size: 0.9em;
@@ -25,7 +27,9 @@ h1::selection {
 }
 h2 {
   font-size: 1.4em;
+  font-weight: 400;
   margin-bottom: 1.2em;
+  text-transform: uppercase;
 }
 a {
   text-decoration: none;
@@ -39,6 +43,8 @@ a[href^="tel:"] {
 .names {
   font-size: 1.1em;
   line-height: 0.6em;
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 .nameBox {
   margin: 1em 0 2.2em 0;

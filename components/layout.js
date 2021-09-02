@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import TopBar from './topbar'
 import styles from './layout.module.css'
 
 import debounce from '../util/debounce'
@@ -28,6 +28,7 @@ export default function Layout({ children }) {
 
   return (
     <div className={styles.container} style={{ minHeight: height }}>
+      <TopBar />
       <Head>
         <title>FORGET ME NOT STUDIO</title>
         <link rel="icon" href="/favicon.ico" />
