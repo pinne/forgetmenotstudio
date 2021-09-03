@@ -1,7 +1,7 @@
 function Contacts() {
   return (
     <>
-      <h2>Contact</h2>
+      <h2 id="contact">Contact</h2>
       <div className='names'>
         <NameBox
           name='Hanna Lindblom'

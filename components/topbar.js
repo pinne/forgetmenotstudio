@@ -8,9 +8,7 @@ function ForgetMeNotText() {
 function Nav() {
   return (
     <ul className={styles.nav}>
-      <li className={styles.link}>Concept</li>
-      <li className={styles.link}>Styling</li>
-      <li className={styles.link}>Contact</li>
+      <li className={styles.link}><a href="#contact">Contact</a></li>
     </ul>
   )
 }
