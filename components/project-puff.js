@@ -27,19 +27,19 @@ function ProjectPuff() {
         <LargePuff
           image={nibblaStolar}
           project="Living room"
-          description="Concept design"
+          description="Residential concept"
         /> 
       </div>
       <div className={styles.container}>
         <LargePuff
           image={wip}
-          project="Office Makeover"
-          description="Design"
+          project="Work in progress"
+          description="Haglöfs head office Stockholm"
         />
         <LargePuff
           image={aptStyling}
           project="Living room"
-          description="Concept design"
+          description="Styling"
         />
       </div>
     </div>
