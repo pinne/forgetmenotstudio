@@ -38,6 +38,15 @@ h2 {
   margin-bottom: 1.2em;
   text-transform: uppercase;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a[href^="tel:"] {
+  color: #171924;
+}
 ::selection {
   color: #aacdeb;
   background: #171924;
