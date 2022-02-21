@@ -1,7 +1,11 @@
 .container {
   margin: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: 'Quicksand', monospace;
   color: #171924;
+  background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgb(177, 191, 243) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

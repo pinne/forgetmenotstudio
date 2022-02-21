@@ -4,10 +4,7 @@ html {
 }
 body {
   margin: 0 auto;
-  background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgb(177, 191, 243) 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
+  height: 100%;
 }
 main {
   flex: 1;
