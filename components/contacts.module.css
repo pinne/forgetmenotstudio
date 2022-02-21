@@ -1,0 +1,21 @@
+.names {
+  font-size: 1.1em;
+  line-height: 0.6em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.names a {
+  text-decoration: none;
+}
+.names a:hover {
+  text-decoration: underline;
+}
+.names a[href^="tel:"] {
+  color: #171924;
+}
+.nameBox {
+  margin: 1em 0 2.2em 0;
+}
+.nameText {
+  text-transform: uppercase;
+}
