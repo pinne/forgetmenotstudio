@@ -1,7 +1,10 @@
+import TeamImage from './team-image'
+
 function Contacts() {
   return (
     <>
       <h2 id="contact">Contact</h2>
+      <TeamImage />
       <div className='names'>
         <NameBox
           name='Hanna Lindblom'
