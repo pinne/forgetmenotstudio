@@ -1,11 +1,12 @@
+import styles from './contacts.module.css'
 import TeamImage from './team-image'
 
 function Contacts() {
   return (
-    <>
-      <h2 id="contact">Contact</h2>
+    <div className={styles.names}>
+      <h2 id={styles.contact}>Contact</h2>
       <TeamImage />
-      <div className='names'>
+      <div className={styles.names}>
         <NameBox
           name='Hanna Lindblom'
           email='hanna@forgetmenotstudio.se'
@@ -22,7 +23,7 @@ function Contacts() {
           phoneNumber='+46-76-2322802'
         />
       </div>
-    </>
+    </div>
   )
 }
 
