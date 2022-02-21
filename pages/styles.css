@@ -6,6 +6,13 @@ body {
   margin: 0 auto;
   height: 100%;
 }
+.bg {
+  background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgb(177, 191, 243) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
 main {
   flex: 1;
   align-self: center;
