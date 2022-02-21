@@ -6,10 +6,8 @@ import styles from './layout.module.css'
 import debounce from '../util/debounce'
 
 export default function Layout({ children }) {
-  const [height, setHeight] = useState(0)
-
   return (
-    <div className={styles.container} style={{ minHeight: height }}>
+    <div className={styles.container}>
       <TopBar />
       <Head>
         <title>FORGET ME NOT STUDIO</title>
