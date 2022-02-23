@@ -19,7 +19,7 @@ export default function Layout({ children }) {
           <h1>Forget<br />me not<br />studio</h1>
         </header>
 
-        <main>{children}</main>
+        {children}
 
         <footer>&copy; 2021 Forget me not studio ❀</footer>
       </div>
