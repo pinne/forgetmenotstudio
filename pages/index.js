@@ -11,6 +11,7 @@ export default function Home() {
         <br />
         <br />
         <br />
+        <hr />
         <Contacts />
       </main>
     </Layout>

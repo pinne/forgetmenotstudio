@@ -6,7 +6,7 @@ function Contacts() {
     <>
       <h2 id={styles.contact}>The Team</h2>
       <TeamImage />
-      <h3 id={styles.contact}>Contact</h3>
+      <h3 id="contact">Contact</h3>
       <div className={styles.names}>
         <NameBox
           name='Hanna Lindblom'
