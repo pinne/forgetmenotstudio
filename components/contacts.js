@@ -8,23 +8,21 @@ function Contacts() {
       <TeamImage />
       <h3 id={styles.contact}>Contact</h3>
       <div className={styles.names}>
-        <div className={styles.names}>
-          <NameBox
-            name='Hanna Lindblom'
-            email='hanna@forgetmenotstudio.se'
-            phoneNumber='+46-70-3878287'
-          />
-          <NameBox
-            name='Lina Antonisen'
-            email='lina@forgetmenotstudio.se'
-            phoneNumber='+46-70-8471921'
-          />
-          <NameBox
-            name='Erika Söderberg'
-            email='erika@forgetmenotstudio.se'
-            phoneNumber='+46-76-2322802'
-          />
-        </div>
+        <NameBox
+          name='Hanna Lindblom'
+          email='hanna@forgetmenotstudio.se'
+          phoneNumber='+46-70-3878287'
+        />
+        <NameBox
+          name='Lina Antonisen'
+          email='lina@forgetmenotstudio.se'
+          phoneNumber='+46-70-8471921'
+        />
+        <NameBox
+          name='Erika Söderberg'
+          email='erika@forgetmenotstudio.se'
+          phoneNumber='+46-76-2322802'
+        />
       </div>
     </>
   )

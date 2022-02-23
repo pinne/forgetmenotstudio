@@ -1,19 +1,23 @@
 .names {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
   font-size: 1.1em;
   line-height: 0.6em;
   margin-top: 0em;
   margin-bottom: 2em;
 }
 .nameBox {
-  margin: 0em 0.4em 2.1em 0.4em;
+  width: 280px;
+  margin: 0 0 2.1em 0;
+  align-self: center;
 }
 .nameText {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 840px) {
   .names {
     flex-direction: column;
   }
