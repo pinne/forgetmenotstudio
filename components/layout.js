@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react'
 import TopBar from './topbar'
 import styles from './layout.module.css'
-
-import debounce from '../util/debounce'
 
 export default function Layout({ children }) {
   return (
