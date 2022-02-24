@@ -4,7 +4,7 @@ import TeamImage from './team-image'
 function Contacts() {
   return (
     <>
-      <h2 id={styles.contact}>The Team</h2>
+      {/*<h2 id={styles.contact}>The Team</h2>*/}
       <TeamImage />
       <h3 id="contact">Contact</h3>
       <div className={styles.names}>

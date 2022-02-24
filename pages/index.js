@@ -6,12 +6,6 @@ export default function Home() {
   return (
     <Layout>
       <main>
-        <ProjectPuff />
-        <br />
-        <br />
-        <br />
-        <br />
-        <hr />
         <Contacts />
       </main>
     </Layout>
