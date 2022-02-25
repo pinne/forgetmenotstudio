@@ -17,7 +17,7 @@ export default function Layout({ children }) {
 
         {children}
 
-        <footer>&copy; 2021 Forget me not studio ❀</footer>
+        <footer>&copy; 2021–2022 Forget me not studio</footer>
       </div>
     </>
   )
