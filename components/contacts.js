@@ -6,7 +6,7 @@ function Contacts() {
     <>
       {/*<h2 id={styles.contact}>The Team</h2>*/}
       <TeamImage />
-      <h3 id="contact">Contact</h3>
+      <h3 id="contact">The team</h3>
       <div className={styles.names}>
         <NameBox
           name='Hanna Lindblom'
@@ -33,7 +33,7 @@ function NameBox({ name, email, phoneNumber }) {
     <div className={styles.nameBox}>
       <p className='nameText'>{name}</p>
       <p><a href={`mailto:${email}`}>{email}</a></p>
-      <p>
+      {phoneNumber ? <p>
         <a href={`tel:${phoneNumber}`}>
           {phoneNumber
             .replace(/-/g, '')
@@ -43,9 +43,10 @@ function NameBox({ name, email, phoneNumber }) {
             )
           }
         </a>
-      </p>
+      </p> : null}
     </div>
   )
 }
 
+export { NameBox }
 export default Contacts

@@ -8,7 +8,7 @@ function TopBar() {
         <Link href="/">Forget me not studio</Link>
       </div>
       <ul className={styles.nav}>
-        <li className={styles.link}><a href="/#contact">Contact</a></li>
+        <li className={styles.link}><a href="/contact">Contact</a></li>
       </ul>
     </div>
   )
