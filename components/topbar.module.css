@@ -9,11 +9,25 @@
 .nav {
   text-transform: uppercase;
   list-style-type: none;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+  color: #171924;
+  background: radial-gradient(153deg, rgb(233, 170, 235) 100%, rgb(172, 235, 170) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
   width: auto;
 }
 .link {
   display: inline-block;
   padding: 0 1em;
+  margin: 2px;
+  background: rgb(172, 235, 170);
+  border: 2px solid rgb(233, 170, 235);
 }
 .link > a {
   color: #171924;
