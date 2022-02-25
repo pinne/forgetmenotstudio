@@ -7,7 +7,7 @@ function TeamImage () {
     <Image
       src={groupPhoto}
       alt="Picture of the team"
-      layout="intrinsic"
+      layout="responsive"
       priority
       placeholder="blur"
       blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO8cP7cfwAIUgNu7ol5NQAAAABJRU5ErkJggg=='
