@@ -8,8 +8,9 @@ function TeamImage () {
       <Image
         src={groupPhoto}
         alt="Picture of the team"
-        width="800"
-        height="533.33"
+        layout="intrinsic"
+        priority
+        placeholder="blur"
       />
     </div>
   )
