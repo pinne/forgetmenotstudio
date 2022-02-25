@@ -11,7 +11,7 @@ function TopBar() {
     <div className={styles.container}>
       <ForgetMeNotText />
       <ul className={styles.nav}>
-        <li className={styles.link}><a href="#contact">Contact</a></li>
+        <li className={styles.link}><a href="/#contact">Contact</a></li>
       </ul>
     </div>
   )
