@@ -7,6 +7,9 @@ function TeamImage () {
     <div className={styles.container}>
       <Image
         src={groupPhoto}
+        alt="Picture of the team"
+        width="800"
+        height="533.33"
       />
     </div>
   )
