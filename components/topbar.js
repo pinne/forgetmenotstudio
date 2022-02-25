@@ -11,6 +11,11 @@ function TopBar() {
       </div>
       <ul className={styles.nav}>
         <li className={styles.link}>
+          <Link href="/stories">
+            <a>Stories</a>
+          </Link>
+        </li>
+        <li className={styles.link}>
           <Link href="/contact">
             <a>Contact</a>
           </Link>
