@@ -5,10 +5,16 @@ function TopBar() {
   return (
     <div className={styles.container}>
       <div className={styles.forgetMeNot}>
-        <Link href="/">Forget me not studio</Link>
+        <Link href="/">
+          <a>Forget me not studio</a>
+        </Link>
       </div>
       <ul className={styles.nav}>
-        <li className={styles.link}><a href="/contact">Contact</a></li>
+        <li className={styles.link}>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
       </ul>
     </div>
   )
