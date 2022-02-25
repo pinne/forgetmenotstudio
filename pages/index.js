@@ -4,10 +4,8 @@ import ProjectPuff from '../components/project-puff'
 
 export default function Home() {
   return (
-    <Layout>
-      <main>
-        <Contacts />
-      </main>
-    </Layout>
+    <main>
+      <Contacts />
+    </main>
   )
 }
