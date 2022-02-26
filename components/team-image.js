@@ -11,6 +11,7 @@ function TeamImage () {
       priority
       placeholder="blur"
       blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO8cP7cfwAIUgNu7ol5NQAAAABJRU5ErkJggg=='
+      sizes="50vw"
       width="800"
       height="533"
     />
