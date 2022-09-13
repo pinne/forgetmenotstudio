@@ -11,13 +11,16 @@ export default function Layout({ children }) {
         <Head>
           <title>FORGET ME NOT STUDIO</title>
           <link rel="icon" href="/favicon.ico" />
-          <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-          <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"></link>
         </Head>
 
         {children}
 
-        <footer>&copy; 2021–2022 Forget me not studio</footer>
+        <footer id="#footer">
+          <p>&copy; 2021-2022 Forget me not Studio</p>
+          <p>FMN Studio AB</p>
+          <p>Stockholm, Sweden</p>
+          <p>Org # 559378-6105</p>
+        </footer>
       </div>
     </>
   )

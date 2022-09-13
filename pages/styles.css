@@ -15,13 +15,15 @@ body {
 }
 main {
   flex: 1;
-  align-self: center;
+  width: 100%;
   max-width: 800px;
+  align-self: center;
 }
 footer {
   font-size: 0.9em;
-  text-transform: uppercase;
-  height: 2em;
+  color: rgb(220, 225, 241);
+  background: ;
+  background: linear-gradient(120deg, #171924, rgb(38, 43, 59) 100%);
 }
 h1 {
   font-size: 3.5em;

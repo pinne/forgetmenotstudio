@@ -1,3 +1,4 @@
+import Layout from '../components/layout'
 import './styles.css'
 import Layout from '../components/layout'
 

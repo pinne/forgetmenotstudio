@@ -4,11 +4,16 @@ import styles from './team-image.module.css'
 
 function TeamImage () {
   return (
-    <div className={styles.container}>
-      <Image
-        src={groupPhoto}
-      />
-    </div>
+    <Image
+      src={groupPhoto}
+      alt="Picture of the team"
+      layout="responsive"
+      priority
+      placeholder="blur"
+      blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO8cP7cfwAIUgNu7ol5NQAAAABJRU5ErkJggg=='
+      width="800"
+      height="533"
+    />
   )
 }
 
