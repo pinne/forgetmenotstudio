@@ -21,8 +21,9 @@ main {
 }
 footer {
   font-size: 0.9em;
-  text-transform: uppercase;
-  height: 2em;
+  color: rgb(220, 225, 241);
+  background: ;
+  background: linear-gradient(120deg, #171924, rgb(38, 43, 59) 100%);
 }
 h1 {
   font-size: 3.5em;

@@ -15,7 +15,12 @@ export default function Layout({ children }) {
 
         {children}
 
-        <footer>&copy; 2021 Forget me not studio ❀</footer>
+        <footer id="#footer">
+          <p>&copy; 2021-2022 Forget me not Studio</p>
+          <p>FMN Studio AB</p>
+          <p>Stockholm, Sweden</p>
+          <p>Org # 559378-6105</p>
+        </footer>
       </div>
     </>
   )
