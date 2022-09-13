@@ -1,6 +1,6 @@
 .names {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   text-align: center;
   font-size: 1em;
