@@ -20,9 +20,18 @@ main {
   align-self: center;
 }
 footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: flex-end;
+  padding: 2em 2em 2em 2em;
   font-size: 0.9em;
   color: rgb(220, 225, 241);
   background: linear-gradient(120deg, #171924, rgb(38, 43, 59) 100%);
+}
+footer p::selection {
+  color: rgb(38, 43, 59);
+  background: rgb(220, 225, 241);
 }
 h1 {
   font-size: 3.5em;
@@ -59,13 +68,6 @@ a[href^="tel:"] {
 ::selection {
   color: #aacdeb;
   background: #171924;
-}
-footer {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-content: flex-end;
-  padding: 2em 2em 2em 2em;
 }
 
 @media only screen and (max-width: 600px) {
