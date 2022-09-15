@@ -11,6 +11,10 @@
 }
 
 .copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 7em;
   text-align: left;
   align-self: flex-end;
 }
