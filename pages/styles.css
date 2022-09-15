@@ -62,5 +62,15 @@ a[href^="tel:"] {
   background: #171924;
 }
 footer {
-  padding: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: flex-end;
+  padding: 2em 2em 2em 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
 }

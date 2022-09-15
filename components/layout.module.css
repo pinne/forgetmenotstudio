@@ -9,3 +9,16 @@
   font-family: 'Quicksand', monospace;
   color: #171924;
 }
+
+.copyright {
+  text-align: left;
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .copyright {
+    margin-top: 2em;
+    text-align: center;
+    align-self: center;
+  }
+}
