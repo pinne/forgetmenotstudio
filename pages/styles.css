@@ -24,6 +24,7 @@ footer {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-content: flex-end;
+  margin-top: 4em;
   padding: 2em 2em 2em 2em;
   font-size: 0.9em;
   color: rgb(220, 225, 241);
