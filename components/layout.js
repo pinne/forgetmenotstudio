@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import TopBar from './topbar'
+import { SocialIcon } from 'react-social-icons'
 import styles from './layout.module.css'
 
 export default function Layout({ children }) {
