@@ -7,12 +7,14 @@ function LargePuff({image, project, description}) {
   return (
     <div className={styles.puff}>
       <a href="#">
+      <div className={styles.imageContainer}>
         <Image
           src={image}
           className={styles.cover}
-          width="350"
-          height="350"
+          layout="fill"
+          objectFit="cover"
         />
+      </div>
         <div className={styles.bottom}>
           <div>{project}</div>
           <div>{description}</div>
