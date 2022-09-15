@@ -26,6 +26,7 @@ function LargePuff({image, project, description}) {
 export default function Stories ({ stories }) {
   return <div>
     <h1>Stories</h1>
+    <h2>Under construction 🚧🚀</h2>
     <div className={styles.container}>
       <LargePuff
         image={tavla}
