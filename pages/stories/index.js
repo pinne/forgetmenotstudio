@@ -24,7 +24,7 @@ function LargePuff({image, project, description}) {
   )
 }
 export default function Stories ({ stories }) {
-  return <div>
+  return <main>
     <h1>Stories</h1>
     <h2>Under construction 🚧🚀</h2>
     <div className={styles.container}>
@@ -34,10 +34,15 @@ export default function Stories ({ stories }) {
         description="Residential concept"
       /> 
       <LargePuff
+        image={wip}
+        project="Haglöfs"
+        description="Commerical concept"
+      /> 
+      <LargePuff
         image={aptStyling}
         project="Living room"
         description="Residential concept"
       /> 
       </div>
-  </div>
+  </main>
 }

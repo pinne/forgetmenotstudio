@@ -16,7 +16,7 @@ body {
 main {
   flex: 1;
   width: 100%;
-  max-width: 800px;
+  max-width: 1024px;
   align-self: center;
 }
 footer {
