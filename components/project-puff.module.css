@@ -22,7 +22,7 @@
 }
 .puff:hover {
   z-index: 100;
-  border: 1px solid black;
+  box-shadow: #e9aaeb 4px 4px;
 }
 .puff:active {
   border: 1px dashed black;

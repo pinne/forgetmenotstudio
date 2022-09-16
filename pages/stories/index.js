@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import aptStyling from '../../images/apt-styling.jpg'
 import tavla from '../../images/bild-med-tavla.png'
+import wip from '../../images/work-in-progress.jpg'
 import styles from '../../components/project-puff.module.css'
 
 function LargePuff({image, project, description}) {
